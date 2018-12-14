@@ -1,16 +1,16 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+### Pixel art maker is an app which allows users to create different patterns and shapes within a grid by using colours to paint cells.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
 
-## Instructions
+## Implemented Features
 
-To get started, open `designs.js` and start building out the app's functionality.
+* [Users can create  grid by selecting grid height and width]
+* [Users can pick a colour of their choice]
+* [Users can paint cells in grid by clicking on it]
+* [Users can remove paint from cells by clicking on it]
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Contributing Authors
+* Abuchi Ndinigwe
+* Udacity
