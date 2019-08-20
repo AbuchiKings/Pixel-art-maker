@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+html, body  {
+    text-align: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+main {
+    min-height: 80vh
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color: darkviolet;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    font-family: cursive;
+    color: saddlebrown;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: rgb(12, 14, 15);
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    width: 100%;
+    padding: 20px 0 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 13px;
+    min-height: 20vh;
+}
+
+
+footer div {
+    margin-top: 20px;
+    text-align: center;
+}

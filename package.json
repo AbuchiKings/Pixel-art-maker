@@ -1,0 +1,51 @@
+{
+  "name": "pixel-art-maker",
+  "version": "1.0.0",
+  "description": "Pixel art maker is an app which allows users to create different patterns and shapes within a grid by using colours to paint cells.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "rm -rf ./dist && webpack --mode development --watch",
+    "build": "rm -rf ./dist && webpack --mode production",
+    "src": "babel-node app.js",
+    "start": "npm run src",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbuchiKings/Pixel-art-maker.git"
+  },
+  "keywords": [
+    "Grid",
+    "Pixel-art"
+  ],
+  "author": "Abuchi Ndinigwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbuchiKings/Pixel-art-maker/issues"
+  },
+  "homepage": "https://github.com/AbuchiKings/Pixel-art-maker#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "open": "^6.4.0",
+    "style-loader": "^1.0.0",
+    "surge": "^0.21.3",
+    "terser-webpack-plugin": "^1.4.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-middleware": "^3.7.0"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack-md5-hash": "0.0.6"
+  }
+}
